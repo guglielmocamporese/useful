@@ -6,7 +6,5 @@ please consider to give a star ⭐!
 ```
 
 ### Essentials
-- [conda](https://github.com/guglielmocamporese/useful/blob/main/conda.md)
-- RCs
-    - [screenrc](https://github.com/guglielmocamporese/useful/blob/main/rc/screenrc)
-    - [vimrc](https://github.com/guglielmocamporese/useful/blob/main/rc/vimrc)
+- [[conda](https://github.com/guglielmocamporese/useful/blob/main/conda.md)]: main conda commands,
+- [[RCs](https://github.com/guglielmocamporese/useful/blob/main/rc.md)]: settings for `screen`, `vim`, and others...
