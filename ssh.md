@@ -7,8 +7,7 @@ The goal of these scripts is to reach `server2` from the `local_pc` establishing
 Example of usage:
 ```bash
 # SSH into server2 passing from server1, form the local_pc opening the port 9000
-# local pc:port --> server1:port --> server2:port
-./server2 -p 9000
+./server2 -p 9000 # local_pc:9000 --> server1:9000 --> server2:9000
 ```
 
 Put this file into the home of the `local_pc`, and rename it as `.server2`:
