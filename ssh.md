@@ -42,8 +42,7 @@ else
 fi
 ```
 
-Put this second file into the home of the `server1`, and remane it as `.server2`
-### N-th SSH hop with port as input arg 
+Put this second file into the home of the `server1`, and remane it as `.server2`:
 ```bash
 #!/bin/bash
 
