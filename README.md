@@ -8,5 +8,5 @@ please consider to give a star ⭐!
 ### Essentials
 - [conda](https://github.com/guglielmocamporese/useful/blob/main/conda.md)
 - RCs
- - [screenrc](https://github.com/guglielmocamporese/useful/blob/main/rc/screenrc)
- - [vimrc](https://github.com/guglielmocamporese/useful/blob/main/rc/vimrc)
+    - [screenrc](https://github.com/guglielmocamporese/useful/blob/main/rc/screenrc)
+    - [vimrc](https://github.com/guglielmocamporese/useful/blob/main/rc/vimrc)
