@@ -1,4 +1,4 @@
-# Useful things I usually need for working
+# Useful Scripts/Commands/Settings I Usually Use For Working
 
 ```bash
 If you use the code of this repo and you find this project useful, 
