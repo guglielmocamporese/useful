@@ -1,4 +1,4 @@
-# Useful Scripts/Commands/Settings I Usually Use For Working
+# Useful Scripts/Commands/Settings I Usually Use
 
 ```bash
 If you use the code of this repo and you find this project useful, 
