@@ -1,6 +1,6 @@
-# Useful SSH commands
+# Useful SSH Commands
 
-### Multiple SSH hops opening ports specified as an input arg
+### Multiple SSH Hops Opening Ports Specified As Input Arg
 
 The goal of these scripts is to reach `server2` from the `local_pc` establishing a SSH connection on a specified `port` passed as argument.
 
