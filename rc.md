@@ -1,4 +1,5 @@
 # Useful RCs
+Put the rc files in your home.
 
 ### .screenrc
 ```bash
