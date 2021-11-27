@@ -4,13 +4,10 @@
 
 The goal of these scripts is to reach `server2` from the `local_pc` establishing a SSH connection on a specified `port` passed as argument.
 
-```bash
-local pc:port --> server1:port --> server2:port
-```
-
 Example of usage:
 ```bash
-# SSH into server2 form the local_pc opening the port 9000
+# SSH into server2 passing from server1, form the local_pc opening the port 9000
+# local pc:port --> server1:port --> server2:port
 ./server2 -p 9000
 ```
 
