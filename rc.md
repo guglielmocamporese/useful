@@ -42,3 +42,24 @@ set shiftwidth=4
 set expandtab  
 syntax enable
 ```
+
+### .zshrc
+```bash
+#!/bin/bash
+
+# Alias
+alias ll="ls -l"
+
+# Colors
+export TERM="xterm-256color"
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+
+# Formatting parameters
+BOLD="%B"; EBOLD="%b"
+COL="%F{203}"; ECOL="%f"
+
+# Format prompt
+export PROMPT="${BOLD}${COL}[%n@local: %~]$ ${ECOL}${ECOL}${EBOLD}"
+```
+
