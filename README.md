@@ -10,4 +10,4 @@ please consider to give a star ⭐!
 - [[RCs](https://github.com/guglielmocamporese/useful/blob/main/rc.md)]: settings for `screen`, `vim`, and others...
 - [[ssh](https://github.com/guglielmocamporese/useful/blob/main/ssh.md)]: useful scripts with `ssh` (opening ports, multiple ssh hops, ...)
 - [[slurm](https://github.com/guglielmocamporese/useful/blob/main/slurm.md)]: useful `slurm` commands.
-- [[env]](https://github.com/guglielmocamporese/useful/blob/main/envs/envs.md)]: useful `conda` environments.
+- [[env](https://github.com/guglielmocamporese/useful/blob/main/envs/envs.md)]: useful `conda` environments.
