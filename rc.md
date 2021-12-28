@@ -1,19 +1,27 @@
 # Useful RCs
 Put the rc files in your home.
 
+### .profile
+```bash
+#!/bin/bash
+
+# Aliases
+alias ll="ls -l"
+
+# PS1 format
+c_col="\e[38;5;51m"
+c_bold="\e[1m"
+c_off="\e[0m"
+export cluster_name="\u@\h"
+ps1="${c_col}[${c_col}${cluster_name}: ${c_col}\W${c_col}]\$ "
+export PS1="${c_bold}${ps1}${c_off}"
+```
+
 ### .screenrc
 ```bash
 #!/bin/bash
 
-# Formatting parameters
-CGREEN="\e[32m"
-CEND="\e[0m"
-CBOLD="\e[1m"
-CBLUE="\e[34m"
-
-# Format prompt
-PS1="${CBOLD}${CGREEN}\u@\h${CEND}${CEND}:${CBOLD}${CBLUE}\w${CEND}${CEND}$ "
-
+shell -$SHELL 
 termcapinfo xterm|xterms|xs|rxvt ti@:te@
 
 # Erase background with current bg color
