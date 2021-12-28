@@ -7,13 +7,14 @@ Put the rc files in your home.
 
 # Aliases
 alias ll="ls -l"
+alias wnvidia-smi="watch -n 0.1 nvidia-smi"
 
 # PS1 format
 c_col="\e[38;5;51m"
 c_bold="\e[1m"
 c_off="\e[0m"
 export cluster_name="\u@\h"
-ps1="${c_col}[${c_col}${cluster_name}: ${c_col}\W${c_col}]\$ "
+ps1="${c_col}[${c_col}${cluster_name}: ${c_col}\w${c_col}]\$ "
 export PS1="${c_bold}${ps1}${c_off}"
 ```
 
@@ -70,4 +71,3 @@ COL="%F{203}"; ECOL="%f"
 # Format prompt
 export PROMPT="${BOLD}${COL}[%n@local: %~]$ ${ECOL}${ECOL}${EBOLD}"
 ```
-
