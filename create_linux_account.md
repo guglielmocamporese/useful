@@ -2,7 +2,7 @@
 
 ```console
 # Create a new linux account from admin
-sudo useradd <username>
+sudo useradd -m <username>
 
 # Create user password
 sudo passwd <username>
