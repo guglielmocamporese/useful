@@ -25,18 +25,29 @@ scontrol show node <nodename>
 # Script from Guglielmo Camporese
 # guglielmo.camporese@phd.unipd.it
 
-# GPU kind              | node name         | property   | cpus |
-# ----------------------|-------------------|------------|------|
-# Tesla V100-PCIE-16GB  | dellcuda0         | ?          | 32   |
-# A100-PCIE-40GB        | dellcuda1         | VIMP (1/3) | 32   |
-# Tesla V100-PCIE-32GB  | dellcuda2         | VIMP       | 64   |
-# Tesla V100-FHHL-16GB  | dellsrv1          | ?          | 40   |
-# Tesla T4              | dellsrv2          | VIMP       | 40   |
-# Tesla T4              | dellsrv3          | VIMP       | 40   |
-# Tesla T4              | dellsrv4          | VIMP       | ?    |
-# Tesla T4              | dellsrv5          | VIMP       | ?    |
-# Tesla T4              | dellsrv6          | ?          | ?    |
-# --------------------------------------------------------------|
+# GPU kind              | node name         | property       | cpus |
+# ----------------------|-------------------|----------------|------|
+# Tesla V100-PCIE-16GB  | dellcuda0         | ?              | 32   |
+# A100-PCIE-40GB        | dellcuda1         | VIMP (1/3)     | 32   |
+# Tesla V100-PCIE-32GB  | dellcuda2         | VIMP           | 64   |
+# Tesla V100-FHHL-16GB  | dellsrv1          | ?              | 40   |
+# Tesla T4              | dellsrv2          | VIMP           | 40   |
+# Tesla T4              | dellsrv3          | VIMP           | 40   |
+# Tesla T4              | dellsrv4          | VIMP           | ?    |
+# Tesla T4              | dellsrv5          | VIMP           | ?    |
+# Tesla T4              | dellsrv6          | ?              | ?    |
+# A5000                 | vgpu0-0           | Math Depatment | ?    |
+# A5000                 | vgpu0-1           | Math Depatment | ?    |
+# A5000                 | vgpu1-0           | Math Depatment | ?    |
+# A5000                 | vgpu1-1           | Math Depatment | ?    |
+# A5000                 | vgpu2-0           | Math Depatment | ?    |
+# A5000                 | vgpu2-1           | Math Depatment | ?    |
+# A5000                 | vgpu3-0           | Math Depatment | ?    |
+# A5000                 | vgpu3-1           | Math Depatment | ?    |
+# A5000                 | vgpu4-0           | Math Depatment | ?    |
+# A5000                 | vgpu4-1           | Math Depatment | ?    |
+# A5000                 | vgpu5-0           | Math Depatment | ?    |
+# ------------------------------------------------------------------|
 
 ### SLURM Directives
 #SBATCH --nodelist=dellcuda2
