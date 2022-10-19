@@ -13,8 +13,11 @@ srun --nodelist <nodename> --pty bash -i
 # see nodes status and partitions
 sinfo -l
 
-# see node property
+# see node properties
 scontrol show node <nodename>
+
+# see job properties
+scontrol show job <jobid>
 ```
 
 ### Example of SLURM job
