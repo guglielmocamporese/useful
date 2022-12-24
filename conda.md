@@ -3,7 +3,7 @@
 ### Create
 ```bash
 # create conda env from scratch
-conda create -n myenv python=3.7
+conda create -n myenv python=3.9
 
 # create conda env from yml
 conda env create -f environment.yml

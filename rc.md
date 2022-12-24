@@ -5,9 +5,10 @@ Put the rc files in your home.
 ```bash
 #!/bin/bash
 
-# Aliases
-alias ll="ls -l"
+# aliases
+alias ll="ls -lh"
 alias wnvidia-smi="watch -n 0.1 nvidia-smi"
+alias jn="jupyter notebook --no-browser"
 
 # PS1 format
 c_col="\e[38;5;51m"
@@ -25,14 +26,14 @@ export PS1="${c_bold}${ps1}${c_off}"
 shell -$SHELL 
 termcapinfo xterm|xterms|xs|rxvt ti@:te@
 
-# Erase background with current bg color
+# erase background with current bg color
 defbce "on"
 
-# Cache 30000 lines for scroll back
+# cache 30000 lines for scroll back
 defscrollback 30000
 
 hardstatus alwayslastline
-# Very nice tabbed colored hardstatus line
+# very nice tabbed colored hardstatus line
 hardstatus string "%{= Kr}%{= Kd}%-w%{= Kr}[%{= KW}${CBOLD}%S${CEND}%{= Kr}]%{= Kd}%+w %-= %{KG} %H%{KW}|%{KY}%101`%{KW}|%D %M %d %Y%{= Kc} %C%A%{-}"
 altscreen on
 ```
@@ -57,17 +58,18 @@ syntax enable
 #!/bin/bash
 
 # Alias
-alias ll="ls -l"
+alias ll="ls -lh"
+alias jn="jupyter notebook"
 
-# Colors
+# colors
 export TERM="xterm-256color"
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
-# Formatting parameters
+# formatting parameters
 BOLD="%B"; EBOLD="%b"
 COL="%F{203}"; ECOL="%f"
 
-# Format prompt
+# format prompt
 export PROMPT="${BOLD}${COL}[%n@local: %~]$ ${ECOL}${ECOL}${EBOLD}"
 ```

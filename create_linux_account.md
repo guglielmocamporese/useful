@@ -1,6 +1,6 @@
 # Useful Commands for Creating New Linux Account
 
-```console
+```bash
 # Create a new linux account from admin
 sudo useradd -m <username>
 
