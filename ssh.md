@@ -65,3 +65,10 @@ else
         ssh user@domain2
 fi
 ```
+
+# Generate a new `SSH` key
+
+```console
+# generate a new ssh key
+ssh-keygen -b 2048 -t rsa
+```
