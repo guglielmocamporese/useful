@@ -9,5 +9,5 @@ With this steps you'll be able to install `CUDA` using `conda`.
 $ conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
 
 # install nvidia-drivers
-sudo apt install nvidia-utils-530
+$ sudo apt install nvidia-utils-530
 ```
