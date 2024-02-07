@@ -11,9 +11,9 @@ alias wnvidia-smi="watch -n 0.1 nvidia-smi"
 alias jn="jupyter notebook --no-browser"
 
 # PS1 format
-c_col="\e[38;5;51m"
-c_bold="\e[1m"
-c_off="\e[0m"
+c_col="\[\e[38;5;51m\]"
+c_bold="\[\e[1m\]"
+c_off="\[\e[0m\]"
 export cluster_name="\u@\h"
 ps1="${c_col}[${c_col}${cluster_name}: ${c_col}\w${c_col}]\$ "
 export PS1="${c_bold}${ps1}${c_off}"
